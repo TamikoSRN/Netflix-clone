@@ -26,7 +26,7 @@ const ListItem = ({ index }) => {
         <>
           <iframe
             title="Youtube player"
-            src={`https://youtube.com/embed/${youtubeID}?autoplay=${true}`}
+            src={`https://youtube.com/embed/${youtubeID}?autoplay=${false}`}
           ></iframe>
           <div className="itemInfo">
             <div className="icons">
