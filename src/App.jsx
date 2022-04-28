@@ -1,11 +1,11 @@
 import React from 'react'
 
+import Watch from './pages/watch/Watch'
 import "./App.scss"
-import Home from './home/Home'
 
 const App = () => {
   return (
-    <Home />
+    <Watch />
   )
 }
 

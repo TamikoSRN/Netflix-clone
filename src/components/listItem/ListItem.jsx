@@ -9,6 +9,7 @@ import "./ListItem.scss";
 
 const ListItem = ({ index }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [youtubeID] = useState("GTA20VJeyYk");
 
   return (
     <div
@@ -23,7 +24,10 @@ const ListItem = ({ index }) => {
       />
       {isHovered && (
         <>
-          <video src="https://youtu.be/GTA20VJeyYk" autoPlay={true} loop />
+          <iframe
+            title="Youtube player"
+            src={`https://youtube.com/embed/${youtubeID}?autoplay=${true}`}
+          ></iframe>
           <div className="itemInfo">
             <div className="icons">
               <PlayArrow className="icon" />
@@ -41,7 +45,7 @@ const ListItem = ({ index }) => {
               possimus ipsa corporis.
             </div>
             <div className="genre">Action, Anime, Fantasy</div>
-          </div>
+          </div>{" "}
         </>
       )}
     </div>
