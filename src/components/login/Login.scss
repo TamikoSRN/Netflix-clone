@@ -1,4 +1,4 @@
-.register {
+.login {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -19,17 +19,6 @@
       .logo {
         height: 40px;
       }
-
-      .loginButton {
-        background-color: red;
-        border: none;
-        color: white;
-        border-radius: 5px;
-        padding: 5px 15px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-      }
     }
   }
 
@@ -45,43 +34,45 @@
     height: 100%;
     color: white;
 
-    h1 {
-      font-size: 55px;
-    }
-
-    h2 {
-      margin: 25px;
-    }
-
-    p {
-      font-size: 25px;
-    }
-
-    .input {
+    form {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 15px;
-      width: 35%;
-      height: 60px;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 300px;
+      height: 300px;
+      padding: 30px;
       border-radius: 5px;
-      background-color: white;
+      background-color: var(--main-color);
 
       input {
-        flex: 9;
-        height: 100%;
-        border: none;
-        padding: 0 10px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: gray;
+        color: white;
+        padding-left: 10px;
+
+        &::placeholder {
+          color: lightgray;
+        }
       }
 
-      .registerButton {
-        flex: 3;
-        height: 100%;
+      button {
+        height: 40px;
+        border-radius: 5px;
         background-color: red;
-        border: none;
         color: white;
-        font-size: 22px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
         cursor: pointer;
+      }
+
+      span {
+        color: lightgray;
+        
+        b {
+          color: white;
+        }
       }
     }
   }
