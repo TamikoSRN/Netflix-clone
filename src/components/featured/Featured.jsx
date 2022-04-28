@@ -31,7 +31,7 @@ const Featured = ({ type }) => {
       />
       <div className="info">
         <img
-          src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeR-b_q1iNXZ6T7iZGU2iWb6rY5EH8W4M-G8S4mvQ5n9CBb7u-HZD_JyXwPjBy-WkrSirtOOpSK4i9DIlDsUT6Q1UWbu.jpg?r=edf"
+          src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABRhgZ-479I-Htp79aIARXsTJzD6XcVCmLcFMRVeLSwpdR-e0hlB78xBcT4SJn2ho7NH_Fnk3p6Jb4bpg9Y0G-fwvSGRIZJZTAfop.png?r=2c5"
           alt=""
         />
         <span className="desc">
