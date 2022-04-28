@@ -26,7 +26,7 @@ const Featured = ({ type }) => {
         </div>
       )}
       <img
-        src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQ5H9p1Oo1ZCTvhikFJjNem6tF30GFG45QTDoqwAyQktWAwE1dCGDHx_5RYY8OPcaG5jFvV4U6IragO5Z_uohSIrWRTz.jpg?r=85d"
         alt=""
       />
       <div className="info">
